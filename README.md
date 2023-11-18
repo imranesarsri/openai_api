@@ -9,3 +9,8 @@ OpenAI is renowned for its cutting-edge research in the field of artificial inte
 OpenAI is committed to the principles of safety, transparency, and broad access. The organization emphasizes the responsible development and deployment of AI technologies, actively engaging in research and initiatives to mitigate potential risks associated with artificial general intelligence (AGI).
 
 It's worth noting that developments in the field of artificial intelligence and OpenAI's initiatives may have progressed since my last update in January 2022. I recommend checking the latest sources for the most current information about OpenAI and its activities.
+
+## Openai API 
+
+Website Openai Api Link :  [openai_api](https://platform.openai.com/docs/overview)
+
