@@ -24,23 +24,17 @@ In this project, I deliberately employed a typographic strategy to enhance the v
 In this project centered around artificial intelligence, I strategically employed a color palette aimed at creating a visually appealing and technologically sophisticated design. The main color, a captivating shade of blue `(#0085ff)`, serves as the project's cornerstone, symbolizing trust and intelligence. To enhance the visual experience, a gradient of blue tones, ranging from #69b4ff to `#e0ffff`, was incorporated, adding depth and dimension. The use of black and white for lines and text `(#FFFFFF and #9e9e9e, respectively)` imparts a crisp and modern aesthetic, ensuring readability and clarity. The background colors, ranging from `#1E1E1E to #454545`, contribute to a sleek and immersive environment, underscoring the project's connection to cutting-edge technology. By combining these carefully selected colors, the design not only aligns with the conventions of the AI field but also communicates a sense of innovation and professionalism.
 
 
-| Color Name            | Color Code  |
-|-----------------------|-------------|
-| Primary               | #0085ff     |
-| Secondary             | #69b4ff     |
-| Accent                | #e0ffff     |
-| Text Primary          | #FFFFFF     |
-| Text Secondary        | #FFFFFF     |
-| Background Primary    | #1E1E1E     |
-| Background Secondary  | #2d2d2d     |
-| Background Accent     | #454545     |
-| Primary Accent        | #006fff     |
-| Secondary Accent      | #e1ffff     |
+| Color Name            | Color Code  | Color                                                                   |
+|-----------------------|-------------|-------------------------------------------------------------------------|
+| Primary               | #0085ff     |<div style="width: 60px; height: 20px; background-color: #0085ff;"></div>|
+| Secondary             | #69b4ff     |<div style="width: 60px; height: 20px; background-color: #69b4ff;"></div>|
+| Accent                | #e0ffff     |<div style="width: 60px; height: 20px; background-color: #e0ffff;"></div>|
+| Text Primary          | #FFFFFF     |<div style="width: 60px; height: 20px; background-color: #FFFFFF;"></div>|
+| Text Secondary        | #9e9e9e     |<div style="width: 60px; height: 20px; background-color: #9e9e9e;"></div>|
+| Background Primary    | #1E1E1E     |<div style="width: 60px; height: 20px; background-color: #1E1E1E;"></div>|
+| Background Secondary  | #2d2d2d     |<div style="width: 60px; height: 20px; background-color: #2d2d2d;"></div>|
+| Background Accent     | #454545     |<div style="width: 60px; height: 20px; background-color: #454545;"></div>|
+| Primary Accent        | #006fff     |<div style="width: 60px; height: 20px; background-color: #006fff;"></div>|
+| Secondary Accent      | #e1ffff     |<div style="width: 60px; height: 20px; background-color: #e1ffff;"></div>|
 
 
-
-
-
-
-<!-- |primary| ![colore #326279](./images/CharteGraphique/palit1-05.png) | #326279           |
- -->
