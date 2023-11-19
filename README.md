@@ -10,16 +10,14 @@ OpenAI is committed to the principles of safety, transparency, and broad access.
 
 It's worth noting that developments in the field of artificial intelligence and OpenAI's initiatives may have progressed since my last update in January 2022. I recommend checking the latest sources for the most current information about OpenAI and its activities.
 
-## Openai API 
+## Design Section
 
-Website Openai Api Link :  [openai_api](https://platform.openai.com/docs/overview)
-
-## Fonts 
+### Fonts 
 
 In this project, I deliberately employed a typographic strategy to enhance the visual identity, choosing two distinct fonts to convey the essence of artificial intelligence. The primary font, `Exo`, with its futuristic and geometric design, serves as the backbone of the project's aesthetic, encapsulating the project's theme of technological advancement. Its sharp angles and modern appeal make it an ideal choice for titles and headers, embodying the essence of artificiality. Complementing this, the secondary font, `Roboto`, contributes a clean and contemporary feel. Widely recognized for its use in digital interfaces, `Roboto` adds readability and a touch of familiarity to the project. By juxtaposing `Exo` as the main font and `Roboto` as the secondary font, the design not only achieves a harmonious balance but also visually communicates the intersection of innovation and accessibility within the realm of artificial intelligence.
 
 
-## Colors
+### Colors
 
 In this project centered around artificial intelligence, I strategically employed a color palette aimed at creating a visually appealing and technologically sophisticated design. The main color, a captivating shade of blue `(#0085ff)`, serves as the project's cornerstone, symbolizing trust and intelligence. To enhance the visual experience, a gradient of blue tones, ranging from #69b4ff to `#e0ffff`, was incorporated, adding depth and dimension. The use of black and white for lines and text `(#FFFFFF and #9e9e9e, respectively)` imparts a crisp and modern aesthetic, ensuring readability and clarity. The background colors, ranging from `#1E1E1E to #454545`, contribute to a sleek and immersive environment, underscoring the project's connection to cutting-edge technology. By combining these carefully selected colors, the design not only aligns with the conventions of the AI field but also communicates a sense of innovation and professionalism.
 
@@ -37,4 +35,9 @@ In this project centered around artificial intelligence, I strategically employe
 | Primary Accent        | #006fff     | ![color #006fff](./images/primary-accent-color.jpg)      |
 | Secondary Accent      | #e1ffff     | ![color #e1ffff](./images/secondary-accent-color.jpg)    |
 
+___
+## Technical Section
 
+### Openai API 
+
+Website Openai Api Link :  [openai_api](https://platform.openai.com/docs/overview)
