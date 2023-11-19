@@ -54,6 +54,11 @@ main nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 main nav ul li a.active {
@@ -97,10 +102,9 @@ section.header {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-
 }
 
-section.header form textarea {
+section.header textarea {
     width: calc(100% - 40px);
     padding: 20px;
     border-radius: 10px;
@@ -117,7 +121,7 @@ section.header form textarea {
     -o-border-radius: 10px;
 }
 
-section.header form button {
+section.header button {
     width: 100%;
     background-color: var(--primary-accent);
     color: var(--text-primary);
@@ -128,9 +132,14 @@ section.header form button {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
-section.header form button:hover {
+section.header button:hover {
     background-color: var(--secondary);
 
 }
@@ -138,9 +147,9 @@ section.header form button:hover {
 /* end header title  */
 
 
-/* start header bady  */
+/* start header body  */
 
-section.bady {
+section.body {
     background-color: var(--bg-accent);
     padding: 20px;
     border-radius: 10px;
@@ -150,14 +159,14 @@ section.bady {
     -o-border-radius: 10px;
 }
 
-section.bady div {
+section.body div {
     padding: 20px;
-    width: calc(50% - 40px);
 
 }
 
-section.bady div.chatMy {
+section.body div.chatMy {
     font-family: 'Roboto', sans-serif;
+    width: calc(50% - 40px);
     background-color: var(--bg-secondary);
     border-radius: 0 15px 15px;
     -webkit-border-radius: 0 15px 15px;
@@ -166,9 +175,10 @@ section.bady div.chatMy {
     -o-border-radius: 0 15px 15px;
 }
 
-section.bady div.chatJpt {
+section.body div.chatJpt {
     background-color: var(--bg-primary);
     margin-left: 50%;
+    width: calc(50% - 40px);
     border-radius: 15px 0 15px 15px;
     -webkit-border-radius: 15px 0 15px 15px;
     -moz-border-radius: 15px 0 15px 15px;
@@ -176,7 +186,35 @@ section.bady div.chatJpt {
     -o-border-radius: 15px 0 15px 15px;
 }
 
-/* end header bady  */
+section.body div.textToImages {
+    background-color: var(--bg-primary);
+    margin-top: 20px;
+    width: calc(100% - 40px);
+    border-radius: 15px 0 15px 15px;
+    -webkit-border-radius: 15px 0 15px 15px;
+    -moz-border-radius: 15px 0 15px 15px;
+    -ms-border-radius: 15px 0 15px 15px;
+    -o-border-radius: 15px 0 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(30% - 10px), 1fr));
+    gap: 20px;
+    /* Adjust the gap between items */
+}
+
+
+
+
+
+section.body div.textToImages div {
+    background-color: var(--bg-accent);
+    padding: 10px;
+    /* Optional: Add padding for illustration */
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+/* end header body  */
 
 
 /* start respons desgin */
@@ -193,6 +231,7 @@ section.bady div.chatJpt {
 footer {
     background-color: var(--bg-secondary);
     padding: 20px 0;
+
 }
 
 footer div {
@@ -211,6 +250,11 @@ footer div ul li {
 footer div ul li a {
     text-decoration: none;
     color: var(--text-primary);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 footer div ul li a:hover {
@@ -230,14 +274,18 @@ footer div ul li a:hover {
         font-size: 16px;
     }
 
-    section.bady div {
+    section.body div {
         padding: 5px;
         width: 100%;
     }
 
-    section.bady div.chatJpt {
+    section.body div.chatJpt {
         margin-left: 0;
         margin-top: 10px;
+    }
+
+    section.body div.textToImages {
+        grid-template-columns: repeat(auto-fill, minmax(calc(100% - 10px), 1fr));
     }
 
 
@@ -250,15 +298,16 @@ footer div ul li a:hover {
         font-size: 22px;
     }
 
-    section.bady div {
-        padding: 20px;
-        width: calc(70% - 40px);
-    }
 
-    section.bady div.chatJpt {
-        margin-left: 30%;
+    section.body div.chatJpt {
+        width: calc(70% - 40px);
         margin-top: 10px;
     }
+
+    section.body div.textToImages {
+        grid-template-columns: repeat(auto-fill, minmax(calc(50% - 10px), 1fr));
+    }
+
 }
 
 @media (min-width: 992px) {

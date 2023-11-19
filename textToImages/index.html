@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI API</title>
+    <link rel="stylesheet" href="../style.css"> <!-- Corrected typo in the stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <ul class="horizontal">
+                    <li><a class="" href="../chatJpt/index.html">ChatJPT</a></li>
+                    <li><a class="active" href="./index.html">Text To Image</a></li>
+                    <li><a href="#">Document</a></li>
+                </ul>
+
+                <ul class="horizontal">
+                    <li class="Mode"><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <section class="title"><span class="fake">Text To </span><span class="chatjpt">Images</span></section>
+        <section class="header">
+            <h2>hello, can I help you</h2>
+            <textarea id="textarea" rows="5" placeholder="Can I help you"></textarea>
+            <button class="submit" id="btnSubmit">Generate</button>
+        </section>
+        <section class="body">
+            <div class="chatMy">
+                <p>If you have any questions, you can ask them, and I will answer them</p>
+            </div>
+            <div class="textToImages">
+                <div>
+                    <h2>image 1</h2>
+                </div>
+                <div>
+                    <h2>image 2</h2>
+                </div>
+                <div>
+                    <h2>image 3</h2>
+                </div>
+                <div>
+                    <h2>image 4</h2>
+                </div>
+                <div>
+                    <h2>image 5</h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="socials">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                            <span class="titleSocials">LinkedIn</span>
+                        </a>
+                    </li>
+                    <!-- Add more social links as needed -->
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <!-- axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <!-- Updated axios version -->
+    <script src="./textToImages.js"></script>
+    <script src="../apiKey.js"></script>
+
+</body>
+
+</html>
