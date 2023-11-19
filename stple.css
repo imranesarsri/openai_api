@@ -18,11 +18,276 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Exo', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 
-/* font-family: 'Roboto', sans-serif; */
+section {
+    margin: 20px;
+}
 
-/* 
+/* start style header */
+header {
+    background-color: var(--bg-secondary);
+}
 
-   */
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+main nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main nav ul li a.active {
+    background-color: var(--primary);
+}
+
+main nav ul li a:hover {
+    background-color: var(--secondary);
+}
+
+main nav ul li a.active:hover {
+    background-color: var(--primary);
+}
+
+.Mode {
+    float: right;
+}
+
+/* end style header */
+
+/* start section title  */
+section.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+section.title span.chatjpt {
+    color: var(--primary);
+}
+
+/* end  section title  */
+
+/* start header title  */
+section.header {
+    background-color: var(--bg-accent);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+section.header form textarea {
+    width: calc(100% - 40px);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+section.header form button {
+    width: 100%;
+    background-color: var(--primary-accent);
+    color: var(--text-primary);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+section.header form button:hover {
+    background-color: var(--secondary);
+
+}
+
+/* end header title  */
+
+
+/* start header bady  */
+
+section.bady {
+    background-color: var(--bg-accent);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+section.bady div {
+    padding: 20px;
+    width: calc(50% - 40px);
+
+}
+
+section.bady div.chatMy {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-secondary);
+    border-radius: 0 15px 15px;
+    -webkit-border-radius: 0 15px 15px;
+    -moz-border-radius: 0 15px 15px;
+    -ms-border-radius: 0 15px 15px;
+    -o-border-radius: 0 15px 15px;
+}
+
+section.bady div.chatJpt {
+    background-color: var(--bg-primary);
+    margin-left: 50%;
+    border-radius: 15px 0 15px 15px;
+    -webkit-border-radius: 15px 0 15px 15px;
+    -moz-border-radius: 15px 0 15px 15px;
+    -ms-border-radius: 15px 0 15px 15px;
+    -o-border-radius: 15px 0 15px 15px;
+}
+
+/* end header bady  */
+
+
+/* start respons desgin */
+
+
+.title {
+    font-size: 24px;
+}
+
+/* Navbar Styles */
+
+
+/* start style footer */
+footer {
+    background-color: var(--bg-secondary);
+    padding: 20px 0;
+}
+
+footer div {
+    display: flex;
+    gap: 50px;
+}
+
+footer div ul {
+    list-style-type: none;
+}
+
+footer div ul li {
+    padding: 5px 0;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+footer div ul li a:hover {
+    color: var(--primary-accent);
+}
+
+/* end style footer */
+
+
+/* Responsive Styles */
+
+
+@media (max-width: 576px) {
+
+    /* Phones */
+    body {
+        font-size: 16px;
+    }
+
+    section.bady div {
+        padding: 5px;
+        width: 100%;
+    }
+
+    section.bady div.chatJpt {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+
+    /* Tablets */
+    .title {
+        font-size: 22px;
+    }
+
+    section.bady div {
+        padding: 20px;
+        width: calc(70% - 40px);
+    }
+
+    section.bady div.chatJpt {
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Computers */
+    section,
+    nav,
+    footer div {
+        max-width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    /* Computers */
+    section,
+    nav,
+    footer div {
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}
+
+/* start respons desgin */
